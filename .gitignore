@@ -1,0 +1,18 @@
+# 开发测试输出文件夹，ignore
+
+# Node.js artifacts
+npm-debug.log
+node_modules/*
+dist/*
+#sass watch
+.sass-cache/
+
+# Mac files
+.DS_Store
+
+# IntelliJ files
+.idea/
+
+
+
+

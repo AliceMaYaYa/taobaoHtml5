@@ -1,0 +1,6 @@
+//_开头的scss文件在编译的时候不会独立生成css文件，但是可以和正常文件一样被import
+body,ul,p{
+    padding: 0px;
+    margin: 0px;
+}
+

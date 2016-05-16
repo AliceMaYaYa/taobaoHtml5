@@ -1,0 +1,7 @@
+//_开头的scss文件在编译的时候不会独立生成css文件，但是可以和正常文件一样被import
+//定义一个mixin，相当于是一个函数，其中$height是传入的参数，在调用的地方会自动使用函数中的内容替换
+//通过 @include 使用mixin函数，比如 @include line-height(50px);
+@mixin line-height($height){
+    height: $height;
+    line-height: $height;
+}
